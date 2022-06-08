@@ -22,7 +22,13 @@ package labs_examples.datatypes_operators.labs;
 public class Exercise_02 {
 
     public static void main(String[] args) {
+        int x = 10;
+        double z = x;
+        System.out.println(z);
 
+        double y = 10.5;
+        int w = (int) y;
+        System.out.println(w);
         // write code here
 
     }

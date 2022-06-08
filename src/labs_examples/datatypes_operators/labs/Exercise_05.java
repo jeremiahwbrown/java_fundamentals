@@ -18,7 +18,12 @@ class LogicalOperators {
         }
 
         // write your code below
-
+        boolean x = true;
+        boolean y = false;
+        if (x & y) System.out.println('n');
+        if (x|y) System.out.println('y');
+        if (x ^ y) System.out.println('y');
+        if (x != y) System.out.println('y');
     }
 
 }
