@@ -1,5 +1,7 @@
 package labs_examples.conditions_loops.labs;
 
+import java.util.Scanner;
+
 /**
  * Conditions and Loops Exercise 5: Calculator
  *
@@ -16,4 +18,23 @@ package labs_examples.conditions_loops.labs;
  */
 
 public class Exercise_05 {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        // prompt user
+        System.out.print("Enter any integer between -10000 and 10000: ");
+        // assign input to variable as int
+        int a;
+        int b;
+        a = scanner.nextInt();
+        System.out.print("Enter any integer between -10000 and 10000: ");
+        b = scanner.nextInt();
+        int sum = a + b;
+        if(sum<30000)
+            System.out.println("the sum is:");
+            System.out.println(sum);
+        int mean = (a + b)/2;
+        if(mean < 30000)
+            System.out.println("the average is:");
+            System.out.println(mean);
+    }
 }
